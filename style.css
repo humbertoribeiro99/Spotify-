@@ -77,7 +77,6 @@ button{
 }
 
 #progress-container {
-    padding-bottom: 1em;
     cursor: pointer;
 }
 
@@ -85,3 +84,13 @@ button{
     color: rgb(0, 183, 107);
     cursor: pointer;
 }
+
+#time-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: smaller;
+    margin-top: 0.5em;
+    
+}
+
